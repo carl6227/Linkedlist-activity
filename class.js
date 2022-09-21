@@ -100,12 +100,18 @@ queueLinkedList.push(3);
 queueLinkedList.push(4);
 queueLinkedList.push(5);
 queueLinkedList.push(6);
-console.log('original linkedList',queueLinkedList.traverse())
+console.log('\noriginal linkedList',queueLinkedList.traverse())
 queueLinkedList.shift();
 console.log('queueLInkedList',queueLinkedList.traverse());
 
-console.log("--------------------------------------")
+console.log("-------------------------------------------")
 
+console.log("\nPrint all values from the linkedlist")
+queueLinkedList.forEach((number)=>{
+    console.log("number: "+number)
+
+})
+console.log("------------------------------------------")
 stackLinkedList.push(7);
 stackLinkedList.push(8);
 stackLinkedList.push(9);
@@ -115,8 +121,8 @@ stackLinkedList.push(12);
 console.log('original linkedList',stackLinkedList.traverse())
 
 stackLinkedList.pop();
-console.log('stackLInkedList',stackLinkedList.traverse());
+console.log('stackLInkedList',stackLinkedList.traverse(),"\n");
 
 
-const nullish = [] === null
-console.log(nullish)
+
+
