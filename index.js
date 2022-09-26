@@ -82,3 +82,6 @@
 // list.pop();
 // list.pop();
 // console.log('Array 1',list.traverse())
+
+
+
