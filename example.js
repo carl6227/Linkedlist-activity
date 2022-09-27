@@ -101,11 +101,13 @@ var head = null;
         push(2);
         push(3);
         push(1);
- console.log(head)
+ printList(head)
+ 
+ console.log("%c 🍡 getMiddle(head)", "color:#ffdd4d", getMiddle(head));
         // Apply merge Sort
         head = mergeSort(head);
         console.log("\n Sorted Linked List is: \n");
         printList(head);
- 
+     
 // This code contributed by umadevi9616
  
